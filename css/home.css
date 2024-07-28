@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#FFFFF0;
+    background-color: #f8f8f8;
 }
 
 header {
@@ -108,6 +108,7 @@ nav ul.logo li a {
 
 @media (max-width: 768px) {
     nav ul.nav-links {
+        z-index: 9999;
         display: none;
         flex-direction: column;
         width: 100%;
@@ -301,3 +302,112 @@ nav ul.logo li a {
   .button_contact:hover .button_lg::after {
     background-color: #fff;
   }
+
+  @media (max-width: 939px) {
+    .home-image{
+        height: 350px;
+        margin-top: -90px;
+    }
+  }
+
+  @media (max-width: 786px) {
+    .intro-text{
+        margin-right: -90px;
+    }
+  }
+
+  @media (max-width: 664px) {
+    .hi{
+        font-size: 30px;
+    }
+    .hi2{
+        margin-top: -25px;
+        font-size: 15px;
+    }
+
+    .button_contact{
+        width: 120px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    .button_contact::before,
+    .button_contact::after{
+    }
+  }
+
+  @media (max-width: 567px) {
+    .home-container {
+        display: grid;
+        margin-top: 90px;
+    }
+
+    .intro-text{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .home-image{
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -350px;
+        height: 500px;
+    }
+
+    .hi{
+        font-size: 70px;
+    }
+
+    .hi2{
+        font-size: 30px;
+        margin-top: -60px;
+    }
+  }
+
+  @media (max-width: 502px) {
+    .hi{
+        font-size: 40px;
+    }
+
+    .hi2{
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+    .home-image{
+        height: 400px;
+        margin-top: -400px;
+    }
+
+    .hamburger{
+        margin-right: -40px;
+    }
+
+    .logo{
+        margin-left: -40px;
+    }
+  }
+
+  @media (max-width: 405px) {
+    .intro-text{
+        margin-top: -250px;
+    }
+
+    .home-image{
+        height: 350px;
+        margin-top: -500px;
+    }
+  }
+
+  @media (max-width: 357px) {
+    .intro-text{
+        margin-top: -280px;
+    }
+
+    .home-image{
+        height: 300px;
+        margin-top: -700px;
+    }
+}
