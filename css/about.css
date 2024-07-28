@@ -1,3 +1,165 @@
 #about{
     background-color: #1c3c4d;
+    padding-top: 100px;
+    padding-bottom: 500px;
+
+}
+
+.aboutme{
+    color: #f8f8f8;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.message{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: justify;
+}
+
+@media (max-width: 567px) {
+    #about{
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 567px) {
+    .message{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+.eductitle{
+    color: #f8f8f8;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.education{
+    margin-top: 90px;
+}
+
+.ust1{
+    display: flex;
+    margin-left: 90px;
+}
+
+.ust{
+    height: 150px;
+}
+
+.ustname{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.program{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.major{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.gwa{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.year{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 20px;
+    margin-right: 70px;
+
+}
+
+.sbu1{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.sbu{
+    height: 150px;
+}
+
+.sbuname{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.dept{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.strand{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.year2{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 20px;
+    margin-right: 70px;
+
+}
+
+.collegeinfo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collegeinfo-header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
