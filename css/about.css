@@ -1,7 +1,7 @@
 #about{
     background-color: #1c3c4d;
     padding-top: 100px;
-    padding-bottom: 500px;
+    padding-bottom: 40px;
 
 }
 
@@ -29,13 +29,16 @@
     #about{
         margin-top: 300px;
     }
-}
-
-@media (max-width: 567px) {
+    
     .message{
         margin-left: 40px;
         margin-right: 40px;
     }
+
+    .sbu, .ust{
+        margin-left: -40px;
+    }
+
 }
 
 .eductitle{
@@ -162,4 +165,48 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 850px) {
+    .collegeinfo-header,
+    .collegeinfo-header2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .year,
+    .year2 {
+        position: static;
+        margin: 0;
+        margin-top: -10px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    
+    .sbu1, .ust1{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+@media (max-width: 730px) {
+    .ust, .sbu{
+        height: 100px;
+    }
+
+    .ustname, .year, .major, .program,
+    .sbuname, .year2, .dept, .strand{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 567px) {
+    .ust, .sbu{
+        height: 80px;
+    }
+
+    .ustname, .year, .major, .program,
+    .sbuname, .year2, .dept, .strand{
+        font-size: 12.5px;
+        margin-right: -30px;
+    }
 }
