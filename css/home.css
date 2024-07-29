@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,7 +51,7 @@ nav ul.logo li a {
 }
 
 .nav-logo {
-    height: 50px; /* Adjust as needed */
+    height: 50px;
 }
 
 .hamburger {
@@ -182,6 +186,7 @@ nav ul.logo li a {
     flex: 0;
     height: 500px;
     margin-left: 130px;
+    user-select: none;
 }
 
 .button_contact {

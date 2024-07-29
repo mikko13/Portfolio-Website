@@ -1,0 +1,131 @@
+#projects {
+    padding-top: 20px;
+}
+
+#projectv2 {
+    padding-bottom: 50px;
+}
+
+.projectsheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    height: 90px;
+    transform: rotate(70deg);
+    z-index: 9999;
+    margin-bottom: -40px;
+}
+
+.project1 {
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex; 
+}
+
+.project1title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 450;
+    color: #1c3c4d;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.projectstitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 450;
+    color: #1c3c4d;
+    font-size: 40px;
+}
+
+.project1content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project1description {
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 350;
+    color: #1c3c4d;
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: -5%;
+}
+
+.esumbong {
+    height: 300px;
+    margin-left: 7%;
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.esumbong:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;    
+    filter: brightness(85%);
+}
+
+.project2 {
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex; 
+}
+
+.project2title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 450;
+    color: #1c3c4d;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.project2title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 450;
+    color: #1c3c4d;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.project2content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project2description {
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 350;
+    color: #1c3c4d;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.hiccup {
+    height: 300px;
+    margin-right: 5%;
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.hiccup:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;    
+    filter: brightness(85%);
+}
+
