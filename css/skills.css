@@ -77,6 +77,16 @@
         width: 50px;
         height: 50px;
     }
+
+    .mysql img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .java img {
+        width: 50px;
+        height: 70px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -97,6 +107,16 @@
         width: 40px;
         height: 40px;
     }
+    .mysql img {
+        width: 50px;
+        height: 40px;
+    }
+    
+    .java img {
+        width: 40px;
+        height: 60px;
+    }
+}
 
     @media (max-width: 370px) {
         .languages {
@@ -117,4 +137,3 @@
             height: 35px;
         }
     }
-}
