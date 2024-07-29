@@ -160,8 +160,6 @@
     }
 
     .skillsline {
-        margin: 0;
-        padding: 0;
         justify-content: center;
         align-items: center;
         background-color: #f0f0f0;
@@ -229,35 +227,51 @@
         text-align: justify;
     }
 
-    @media (max-width: 793px) {
-        .sskill1, .hskills1{
-            font-size: 12px;
-        }
-    }
-
-    @media (max-width: 566px) {
+    @media (max-width: 864px) {
         .skillsdiv{
-            margin-left: 10px;
-            margin-right: 10px;
+            display:block;
+        }
+
+        .softtitle{
+            text-align: left;
+        }
+
+        .sskill1{
+            text-align: left;
+        }
+
+        .hskills1, .htitle{
+            margin-left: -20px;
+        }
+
+        .vertical-line {
+            width: 100%;
+            height: 4px;
+            margin-bottom: 20px;
+            margin-top: 20px;
         }
     }
 
-    @media (max-width: 481px) {
-        .htitle, .stitle{
-            font-size: 15px;
-        }
-        .sskill1, .hskills1{
-            font-size: 10px;
-        }
-    }
-
-    
-    @media (max-width: 426px) {
-        .htitle, .stitle{
+    @media (max-width: 593px) {
+        .hskills1, .sskill1{
             font-size: 13px;
         }
-        .sskill1, .hskills1{
-            font-size: 8px;
-        }
     }
 
+    @media (max-width: 410px) {
+        .hskills1, .sskill1{
+            font-size: 12px;
+        }
+
+        .hardtitle, .softtitle{
+            margin-right: -30px;
+            margin-left: -30px;
+        }
+
+        .vertical-line{
+            width: 110%;
+        }
+        .skillsline{
+            margin-left: -30px;
+        }
+    }
