@@ -44,6 +44,26 @@ nav ul li a {
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #C28957;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: #C28957;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 nav ul.logo li a {
@@ -52,6 +72,10 @@ nav ul.logo li a {
 
 .nav-logo {
     height: 50px;
+}
+
+nav ul.logo li a::after {
+    display: none;
 }
 
 .hamburger {
