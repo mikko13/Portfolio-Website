@@ -1,0 +1,90 @@
+.contactcard {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 80%;
+    height: 150px;
+    background: #142e3c;
+    background: -webkit-linear-gradient(30deg, #142e3c 0%, #8cb1d4 100%);
+    background: linear-gradient(30deg, #142e3c 0%, #8cb1d4 100%);
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    padding: 10px;
+}
+
+.contactimg {
+    width: 100px;
+    height: 100px;
+    background: #e8e8e8;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactlinks {
+    flex: 1;
+    display: flex;
+}
+
+.contactslogan {
+    flex-shrink: 0;
+    margin-right: 20px;
+    align-self:flex-start;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.slogan{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: end;
+}
+
+.memoji {
+    height: 90px;
+}
+
+.contactinfo2{
+    margin-left: 15px;
+}
+
+.info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    font-size: 1em;
+}
+
+.info i {
+    margin-right: 5px;
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+}
+
+.info:hover a {
+    color: #C28957;
+    text-decoration: underline;
+}
+
+.messageslogan {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: end;
+    margin-top: 10px;
+}
