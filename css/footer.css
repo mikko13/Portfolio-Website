@@ -1,4 +1,188 @@
-footer{
+footer {
     background-color: #1c3c4d;
-    height: 450px;
+    height: 345px;
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 120px;
+}
+
+.footerlogo, .footermessagediv, .linksdiv {
+    flex: 1;
+    color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: -400px;
+
+}
+
+.linksdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.links{
+    font-weight: 900;
+}
+
+.links1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.links1:hover a {
+    color: #C28957;
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+.footermessagediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footermessage, .footermessage2 {
+    color: white;
+}
+
+.footermessage {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.footermessage2 {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.footerline {
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.footer-line {
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.copyright {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .footerdiv {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo {
+        height: 90px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
+    .links1 a {
+        font-size: 13px;
+    }
+
+    .footermessage {
+        font-size: 20px;
+    }
+
+    .footermessage2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 541px) {
+    .footer-logo {
+        height: 80px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
+    .links1 a {
+        font-size: 13px;
+    }
+
+    .footermessage {
+        font-size: 17px;
+    }
+
+    .footermessage2 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footerdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 490px;
+    }
+
+    .footermessagediv{
+        margin-top: 420px;
+    }
+
+    .linksdiv{
+        margin-top: 420px;
+    }
+
+    .footer-logo{
+        margin-top: 120px;
+    }
+
+    .footerline{
+        margin-bottom: -130px;  
+    }
+
+    .copyright{
+        font-size: 10px;
+        margin-top: 140px;
+    }
+
+    .footerbottom{
+        margin-top: 430px;
+    }
+}
+
+@media (max-width: 367px) {
+    .footermessage{
+        font-size: 16px;
+    }
+
+    .footermessage2{
+        font-size: 12px;
+    }
 }
