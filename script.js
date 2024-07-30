@@ -49,3 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.getElementById('contactButton').addEventListener('click', function() {
+    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+});
