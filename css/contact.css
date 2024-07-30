@@ -1,17 +1,31 @@
+@keyframes slideUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 .contactcard {
     display: flex;
     align-items: center;
     width: 80%;
     height: 150px;
-    background: #142e3c;
-    background: -webkit-linear-gradient(30deg, #142e3c 0%, #8cb1d4 100%);
-    background: linear-gradient(30deg, #142e3c 0%, #8cb1d4 100%);
+    background: #d59f70;
+    background: -webkit-linear-gradient(220deg, #d59f70 0%, #864500 100%);
+    background: linear-gradient(220deg, #d59f70 0%, #864500 100%);
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;
     border: none;
     border-radius: 10px;
     margin: auto;
     font-family: "Josefin Sans", sans-serif;
     position: relative;
     padding: 10px;
+    margin-bottom: -100px;
+    animation: slideUpDown 2.5s ease-in-out infinite;
 }
 
 .contactimg {
@@ -75,7 +89,7 @@
 }
 
 .info:hover a {
-    color: #C28957;
+    color: #1c3c4d;
     text-decoration: underline;
 }
 
@@ -165,11 +179,11 @@
 
 @media (max-width: 1085px) {
     .contactcard {
+        margin-bottom: -100px;
         display: block;
         height: 100%;
         text-align: center;
         height: 160px;
-        margin-bottom: 0px;
     }
 
     .contactimg {
