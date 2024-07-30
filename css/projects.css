@@ -3,12 +3,6 @@
     flex-wrap: wrap;
 }
 
-#projectv2 {
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-
-}
-
 .projectsheader {
     display: flex;
     align-items: center;
@@ -22,69 +16,65 @@
     margin-bottom: -40px;
 }
 
-.project1 {
-    margin-top: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex; 
-}
-
-.project1title {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 450;
-    color: #1c3c4d;
-    font-size: 30px;
-    margin-bottom: -10px;
-}
-
 .projectstitle {
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 450;
+    font-weight: 650;
     color: #1c3c4d;
     font-size: 40px;
 }
 
-.project1content {
+.projectcontainer {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
 }
 
-.project1description {
-    font-size: 14px;
+.project1info, .project2info {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.project1div, .project2div {
+    width: 50%;
+}
+
+.esumbongpic, .hiccuppic {
+    width: 50%;
+}
+
+.project1div, .hiccuppic{
+    margin-left: 60px;
+}
+
+.project2div, .esumbongpic{
+    margin-right: 60px;
+}
+
+.esumbong, .hiccup {
+    width: 100%;
+    height: auto;
+}
+
+.project1info {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.project2info {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.project1description, .project2description {
+    text-align: justify;
+    font-size: 15px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 350;
     color: #1c3c4d;
-    text-align: justify;
     line-height: 1.5;
-    margin-right: -5%;
 }
 
-.esumbong {
-    height: 300px;
-    margin-left: 7%;
-    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
-    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
-    box-shadow: 5.5px 5px 15px -5.5px #000000;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
-}
-
-.esumbong:hover {
-    transform: scale(1.1);
-    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
-    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
-    box-shadow: 5.5px 5px 15px -5.5px #000000;    
-    filter: brightness(85%);
-}
-
-.project2 {
-    margin-top: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex; 
-}
-
-.project2title {
+.project1title, .project2title {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 450;
     color: #1c3c4d;
@@ -92,23 +82,17 @@
     margin-bottom: -10px;
 }
 
-.project2content {
-    display: flex;
-    align-items: flex-start;
+.project1div, .hiccuppic{
+    margin-right: 30px;
 }
 
-.project2description {
-    font-size: 14px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 350;
-    color: #1c3c4d;
-    text-align: justify;
-    line-height: 1.5;
+.project2div, .esumbongpic{
+    margin-left: 30px;
 }
 
-.hiccup {
-    height: 300px;
-    margin-right: 5%;
+
+.esumbong, .hiccup{
+    border: 1px solid black;    
     -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
     -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
     box-shadow: 5.5px 5px 15px -5.5px #000000;
@@ -116,7 +100,7 @@
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
-.hiccup:hover {
+.esumbong:hover, .hiccup:hover {
     transform: scale(1.1);
     -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
     -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
@@ -124,144 +108,87 @@
     filter: brightness(85%);
 }
 
-@media (max-width: 1333px) {
-    .esumbong, .hiccup{
-        height: 275px;
-    }
-}
-
-@media (max-width: 1215px) {
-    .project1description, .project2description {
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 1082px) {
-    .esumbong, .hiccup{
-        height: 255px;
-    }
-
+@media (max-width: 870px) {
     .project1title, .project2title{
         font-size: 20px;
     }
-}
 
-@media (max-width: 1035px) {
-    .esumbong, .hiccup{
-        height: 220px;
-    }
-
-    .project1title, .project2title{
-        font-size: 15px;
-    }
-    .project1description, .project2description {
-        font-size: 10px;
+    .project1description, .project2description{
+        font-size: 12px;
     }
 }
 
-@media (max-width: 916px) {
-    .project1 {
-        margin-left: 5%;
-        margin-right: 10%;
-        display: block; 
-    }
-
-    .esumbong{
-        align-items: center;
-        justify-content: center;
-        margin-left: 0%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-
-    .project2 {
-        margin-left: 5%;
-        margin-right: 10%;
-        display: block; 
-    }
-
-    .hiccup{
-        align-items: center;
-        justify-content: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 150px;
-    }
-    
-    .project2info{
-        margin-top: -330px;
-    }
-
-    .project2description{
-        margin-right: -40px;
-    }
-}
-
-@media (max-width: 916px) {
+@media (max-width: 800px) {
     .projectstitle{
-        font-size: 32.5px;
-    }
-}
-
-@media (max-width: 642px) {
-    .projectstitle{
-        font-size: 27.5px;
+        font-size: 30px;
     }
 
     .arrow{
         height: 60px;
     }
-}
+    .project1info, .project2info {
+        display: block;
+    }
 
-@media (max-width: 732px) {
-    .project2description{
-        margin-right: -18.5px;
+    .project1div, .hiccuppic{
+        margin-right: 0px;
+    }
+    
+    .project2div, .esumbongpic{
+        margin-left: 0px;
+    }
+
+    .project1div, .hiccuppic{
+        margin-left: 0px;
+    }
+
+    .projectcontainer{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .project1info, .project2info {
+        flex-direction: column;
+    }
+
+    .project1div, .hiccuppic,
+    .project2div, .esumbongpic {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .project2info {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
-@media (max-width: 542px) {
+@media (max-width: 580px) {
     .projectstitle{
-        font-size: 23.5px;
-        font-weight: 600;
+        font-size: 25.5px;
+        margin-left: 40px;
     }
 
     .arrow{
-        height: 40px;
-        margin-top: -25px;
-    }
+        height: 45px;
+        margin-top: -10px;
+        margin-right: 40px;
 
-    .projectsheader{
-        margin-bottom: -30px;
-    }
-
-    .esumbong, .hiccup{
-        height: 180px;
     }
 }
 
-@media (max-width: 483px) {
-    .project1{
-        margin-bottom: 190px;
+@media (max-width: 535px) {
+    .projectstitle{
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 800;
     }
 
-    .esumbong, .hiccup{
-        height: 150px;
-        margin-left: 35px;
-    }
+    .arrow{
+        height: 35px;
+        margin-top: -20px;
+        margin-right: 40px;
 
-    .project1title, .project2title{
-        font-size: 16px;
-        margin-bottom: 1px;
     }
-    .project1description, .project2description {
-        font-size: 8px;
-    }
-
-    .hiccup{
-        padding-top: -112250px;
-    }      
 }
-
