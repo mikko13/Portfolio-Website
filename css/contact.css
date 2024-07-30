@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     width: 80%;
-    max-width: 80%;
     height: 150px;
     background: #142e3c;
     background: -webkit-linear-gradient(30deg, #142e3c 0%, #8cb1d4 100%);
@@ -87,4 +86,262 @@
     font-family: "Josefin Sans", sans-serif;
     text-align: end;
     margin-top: 10px;
+}
+
+.contactimg2 {
+    width: 80px;
+    height: 80px;
+    background: #e8e8e8;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-right: 20px;
+}
+
+.memoji2 {
+    height: 60px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1150px) {
+    .contactcard {
+        width: 70%;
+    }
+
+    .contactimg {
+        width: 90px;
+        height: 90px;
+    }
+
+    .memoji {
+        height: 80px;
+    }
+
+    .info {
+        font-size: 0.8em;
+    }
+
+    .slogan{
+        font-size: 25px;
+    }
+
+    .messageslogan{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .contactcard {
+        width: 60%;
+    }
+
+    .contactimg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .memoji {
+        height: 60px;
+    }
+
+    .info {
+        font-size: 0.7em;
+    }
+
+    .slogan{
+        font-size: 20px;
+    }
+
+    .messageslogan{
+        font-size: 8.5px;
+    }
+
+    .contactslogan{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .contactcard {
+        display: block;
+        height: 100%;
+        text-align: center;
+        height: 160px;
+        margin-bottom: 0px;
+    }
+
+    .contactimg {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .memoji {
+        height: 60px;
+    }
+
+    .contactlinks {
+        display: flex;
+    }
+
+    .info {
+        font-size: 0.7em;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .slogan {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .messageslogan {
+        font-size: 8.5px;
+        text-align: right;
+    }
+
+    .contactslogan{
+        margin-right: 20px;
+        margin-top: -75px;
+
+    }
+}
+
+@media (max-width: 1085px) {
+    .contactcard {
+        width: 80%;
+    }
+}
+
+@media (max-width: 735px) {
+    .contactcard {
+        height: 250px;
+        width: 50%;
+    }
+
+    .slogan, .messageslogan {
+        text-align: left;
+    }
+    
+    .contactslogan {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: -90px;
+    }
+}
+
+@media (max-width: 681px) {
+    .info i{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 673px) {
+    .contactcard {
+        width: 60%;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 567px) {
+    .contactcard {
+        width: 70%;
+        height: 170px;
+    }
+
+    .contactimg{
+        display: none;
+    }
+
+    .contactimg2{
+        display: unset;
+        margin-left: 130px;
+    }
+
+    .contactsbottom{
+        display: flex;
+    }
+
+    .contactslogan{
+        margin-right: -110px;
+    }
+}
+
+@media (max-width: 481px) {
+    .contactinfo, .contactinfo2{
+        font-size: 0.8em;
+    }
+
+    .contactimg{
+        display: none;
+    }
+
+    .memoji2{
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .contactimg2{
+        display: unset;
+        margin-left: 130px;
+        height: 60px;
+    }
+
+    .slogan{
+        font-size: 15px;
+    }
+
+    .messageslogan{
+        font-size: 8.5px;
+    }
+
+    .contactcard {
+        height: 135px;
+    }
+}
+
+@media (max-width: 461px) {
+    .contactimg2{
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 442px) {
+    .contactimg2{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 428px) {
+    .contactimg2{
+        display: none;
+    }
+}
+
+
+@media (max-width: 403px) {
+    .contactcard{
+        height: 100%;
+    }
+
+    .contactinfo{
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 347px) {
+    .messageslogan{
+        margin-right: 15px;
+    }
+
+    .contactslogan{
+        margin-left: 10px;
+    }
+
+    .contactinfo{
+        margin-left: -8px;
+    }
 }
