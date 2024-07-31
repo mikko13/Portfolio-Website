@@ -7,14 +7,14 @@ body {
 .area {
     background: white;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
 }
 
 .circles {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -40,8 +40,8 @@ body {
 
 .circles li:nth-child(2) {
     left: 10%;
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
     animation-delay: 2s;
     animation-duration: 12s;
 }
@@ -104,6 +104,14 @@ body {
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
+}
+
+.circles li:nth-child(11) {
+    left: 90%;
+    width: 90px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 35s;
 }
 
 @keyframes animate {

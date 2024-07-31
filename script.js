@@ -60,3 +60,12 @@ window.addEventListener('load', () => {
     document.body.classList.add('no-scroll'); 
     setTimeout(hideLoader, 2500);
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const contactButton = document.getElementById("contactButton");
+    const contactSection = document.getElementById("contact");
+
+    contactButton.addEventListener("click", function() {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+    });
+});
