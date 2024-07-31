@@ -6,7 +6,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
 }
 
 header {
@@ -498,3 +497,4 @@ nav ul.logo li a::after {
     bottom: unset;
     transition-duration: 0.3s;
 }
+

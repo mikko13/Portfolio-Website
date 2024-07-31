@@ -60,4 +60,3 @@ window.addEventListener('load', () => {
     document.body.classList.add('no-scroll'); 
     setTimeout(hideLoader, 2500);
 });
-
