@@ -50,6 +50,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.getElementById('contactButton').addEventListener('click', function() {
-    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+function hideLoader() {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('hide'); 
+    document.body.classList.remove('no-scroll');
+}
+
+window.addEventListener('load', () => {
+    document.body.classList.add('no-scroll'); 
+    setTimeout(hideLoader, 3000);
 });
+
