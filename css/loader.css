@@ -21,7 +21,9 @@ svg text {
 	stroke-width: 2;
 	stroke: #1C3D4F;
 	font-size: 100px;
+  font-weight: bolder;
 }
+
 @keyframes stroke {
 	0%   {
 		fill: rgba(78,104,136,0); stroke: rgba(28,61,79,1);
