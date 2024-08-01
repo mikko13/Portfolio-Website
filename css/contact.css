@@ -93,6 +93,10 @@
     text-decoration: underline;
 }
 
+.info:hover i {
+    color: #1c3c4d;
+}
+
 .messageslogan {
     color: white;
     font-size: 13px;
@@ -357,5 +361,89 @@
 
     .contactinfo{
         margin-left: -8px;
+    }
+}
+
+.text-cloud{
+    background-color: #373A40;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-inline: auto;
+    padding: 1%;
+}
+
+.hellocloud{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+.text-cloud-triangle {
+    border-radius: 5px;
+    margin-inline: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #373a40 transparent transparent transparent;
+    margin-top: -1px;
+}
+
+.cloudpic{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.cloud {
+    position:absolute;
+    margin-top: -50px;
+    display: none;
+    animation: text-cloud-in 0.4s ease 0s 1 normal forwards;
+}
+
+.fade-in {
+    display: block;
+    animation: text-cloud-in 0.4s ease 0s 1 normal forwards;
+}
+
+.fade-out {
+    animation: text-cloud-out 0.4s ease 0s 1 normal forwards;
+    display: block;
+}
+
+.cloudpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes text-cloud-in {
+    0% {
+        transform: scale(0);
+        transform-origin: 50% 100%;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 50% 100%;
+    }
+}
+
+@keyframes text-cloud-out {
+    0% {
+        transform: scale(1);
+        transform-origin: 50% 100%;
+    }
+
+    100% {
+        transform: scale(0);
+        transform-origin: 50% 100%;
     }
 }

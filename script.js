@@ -58,7 +58,7 @@ function hideLoader() {
 
 window.addEventListener('load', () => {
     document.body.classList.add('no-scroll'); 
-    setTimeout(hideLoader, 2500);
+    setTimeout(hideLoader, 1000);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -67,5 +67,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     contactButton.addEventListener("click", function() {
         contactSection.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const memoji = document.querySelector('.memoji');
+    const cloud = document.querySelector('.cloud');
+
+    memoji.addEventListener('mouseover', () => {
+        cloud.classList.remove('fade-out');
+        cloud.classList.add('fade-in');
+    });
+
+    memoji.addEventListener('mouseout', () => {
+        cloud.classList.remove('fade-in');
+        cloud.classList.add('fade-out');
     });
 });
