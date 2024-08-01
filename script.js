@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const memoji = document.querySelector('.memoji');
+    const memojiBlink = document.querySelector('.memoji-blink');
     const cloud = document.querySelector('.cloud');
 
     memoji.addEventListener('mouseover', () => {
@@ -80,6 +81,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     memoji.addEventListener('mouseout', () => {
+        cloud.classList.remove('fade-in');
+        cloud.classList.add('fade-out');
+    });
+
+    memojiBlink.addEventListener('mouseover', () => {
+        cloud.classList.remove('fade-out');
+        cloud.classList.add('fade-in');
+    });
+
+    memojiBlink.addEventListener('mouseout', () => {
         cloud.classList.remove('fade-in');
         cloud.classList.add('fade-out');
     });

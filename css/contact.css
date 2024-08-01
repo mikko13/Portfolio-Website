@@ -66,7 +66,29 @@
 
 .memoji {
     height: 90px;
+    display: block;
+    transition: display 0.3s ease;
+    opacity: 1;
 }
+
+.memoji-blink {
+    height: 90px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.contactimg:hover .memoji {
+    display: none;
+    opacity: 0;
+}
+
+.contactimg:hover .memoji-blink {
+    display: block;
+    opacity: 1;
+}
+
 
 .contactinfo2{
     margin-left: 15px;
