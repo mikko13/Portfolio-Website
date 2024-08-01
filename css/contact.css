@@ -159,6 +159,10 @@
         height: 80px;
     }
 
+    .memoji-blink {
+        height: 80px;
+    }
+
     .info {
         font-size: 0.8em;
     }
@@ -182,7 +186,11 @@
         height: 80px;
     }
 
-    .memoji {
+    .memoji{
+        height: 60px;
+    }
+
+    .memoji-blink{
         height: 60px;
     }
 
@@ -218,7 +226,7 @@
         margin: 0 auto;
     }
 
-    .memoji {
+    .memoji .memoji-blink{
         height: 60px;
     }
 
