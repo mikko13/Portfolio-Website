@@ -58,7 +58,7 @@ function hideLoader() {
 
 window.addEventListener('load', () => {
     document.body.classList.add('no-scroll'); 
-    setTimeout(hideLoader, 6000);
+    setTimeout(hideLoader, 1000);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
