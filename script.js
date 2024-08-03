@@ -95,36 +95,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         cloud.classList.add('fade-out');
     });
 });
-
-var modal = document.getElementById("modal");
-var modalImg = document.getElementById("modal-img");
-
-document.querySelectorAll('.esumbong, .hiccup').forEach(function(img) {
-    img.addEventListener('click', function() {
-        modal.style.display = "flex";
-        modalImg.src = this.src;
-        document.body.classList.add('no-scroll'); 
-    });
-});
-
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() { 
-    modal.style.animation = "fadeOut 0.5s";
-    setTimeout(function() {
-        modal.style.display = "none";
-        modal.style.animation = "fadeIn 0.5s";
-        document.body.classList.remove('no-scroll');
-    }, 500);
-}
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.animation = "fadeOut 0.5s";
-        setTimeout(function() {
-            modal.style.display = "none";
-            modal.style.animation = "fadeIn 0.5s";
-            document.body.classList.remove('no-scroll');
-        }, 500);
-    }
-}
