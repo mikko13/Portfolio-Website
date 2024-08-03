@@ -42,11 +42,11 @@
     width: 50%;
 }
 
-.project1div, .hiccuppic{
+.project1div, .hiccuppic {
     margin-left: 60px;
 }
 
-.project2div, .esumbongpic{
+.project2div, .esumbongpic {
     margin-right: 60px;
 }
 
@@ -82,16 +82,15 @@
     margin-bottom: -10px;
 }
 
-.project1div, .hiccuppic{
+.project1div, .hiccuppic {
     margin-right: 30px;
 }
 
-.project2div, .esumbongpic{
+.project2div, .esumbongpic {
     margin-left: 30px;
 }
 
-
-.esumbong, .hiccup{
+.esumbong, .hiccup {
     border: 0.5px solid black;    
     -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
     -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
@@ -106,44 +105,44 @@
     -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
     box-shadow: 5.5px 5px 15px -5.5px #000000;    
     filter: brightness(85%);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 @media (max-width: 870px) {
-    .project1title, .project2title{
+    .project1title, .project2title {
         font-size: 20px;
     }
 
-    .project1description, .project2description{
+    .project1description, .project2description {
         font-size: 12px;
     }
 }
 
 @media (max-width: 800px) {
-    .projectstitle{
+    .projectstitle {
         font-size: 30px;
     }
 
-    .arrow{
+    .arrow {
         height: 60px;
     }
     .project1info, .project2info {
         display: block;
     }
 
-    .project1div, .hiccuppic{
+    .project1div, .hiccuppic {
         margin-right: 0px;
     }
     
-    .project2div, .esumbongpic{
+    .project2div, .esumbongpic {
         margin-left: 0px;
     }
 
-    .project1div, .hiccuppic{
+    .project1div, .hiccuppic {
         margin-left: 0px;
     }
 
-    .projectcontainer{
+    .projectcontainer {
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -166,45 +165,40 @@
 }
 
 @media (max-width: 580px) {
-    .projectstitle{
+    .projectstitle {
         font-size: 25.5px;
         margin-left: 40px;
     }
 
-    .arrow{
+    .arrow {
         height: 45px;
         margin-top: -10px;
         margin-right: 40px;
-
     }
 }
 
 @media (max-width: 535px) {
-    .projectstitle{
+    .projectstitle {
         font-size: 20px;
         margin-left: 40px;
         font-weight: 800;
     }
 
-    .arrow{
+    .arrow {
         height: 35px;
         margin-top: -20px;
         margin-right: 40px;
-
     }
 }
 
 .modal {
-    display: none; 
+    display: none;
     position: fixed; 
     z-index: 1; 
-    padding-top: 100px; 
     left: 0;
     top: 0;
     width: 100%; 
     height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0, 0, 0, 0.9); 
     animation: fadeIn 0.5s;
     align-items: center;
     justify-content: center;
@@ -212,12 +206,18 @@
 }
 
 .modal-content {
+    display: none;
     margin: auto;
     display: block;
     width: 150%;
     max-width: 1200px;
     border-radius: 5px;
+    border: 2px solid #1c3c4d;
+    -webkit-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    -moz-box-shadow: 5.5px 5px 15px -5.5px #000000;
+    box-shadow: 5.5px 5px 15px -5.5px #000000;
 }
+
 
 .close {
     position: absolute;

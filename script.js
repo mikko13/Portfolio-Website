@@ -97,12 +97,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 var modal = document.getElementById("modal");
-
 var modalImg = document.getElementById("modal-img");
 
 document.querySelectorAll('.esumbong, .hiccup').forEach(function(img) {
     img.addEventListener('click', function() {
-        modal.style.display = "block";
+        modal.style.display = "flex";
         modalImg.src = this.src;
         document.body.classList.add('no-scroll'); 
     });
