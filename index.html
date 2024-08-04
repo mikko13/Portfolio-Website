@@ -1,383 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Mikko</title>
-
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/skills.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/loader.css">
-    <link rel="stylesheet" href="css/bubble.css">
-    <link rel="stylesheet" href="css/scrollbar.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/logo.png" type="image/x-icon"> 
-</head>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<title>Mikko</title>
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/projects.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/loader.css">
+	<link rel="stylesheet" href="css/bubble.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/logo.png" type="image/x-icon"> </head>
 <div class="loader">
-        <svg class="loadersvg">
-            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-                MLS
-            </text>
-        </svg>
-  </div>
+	<svg class="loadersvg">
+		<text x="50%" y="50%" dy=".35em" text-anchor="middle"> MLS </text>
+	</svg>
+</div>
 
 <body>
-    
-    <button class="scrollup">
-        <svg class="svgIcon" viewBox="0 0 384 512">
-          <path
-            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
-          ></path>
-        </svg>
-      </button>
-    <header>
-        <nav>
-            <ul class="logo">
-                <li><a href="#home"><img src="images/logo.png" alt="Logo" class="nav-logo" draggable="false" oncontextmenu="return false;"></a></li>
-            </ul>
-            
-            <label class="hamburger">
-                <input type="checkbox">
-                <svg viewBox="0 0 32 32">
-                    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-                    <path class="line" d="M7 16 27 16"></path>
-                </svg>
-            </label>
-
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            
-        </nav>
-    </header>
-    
-    <main id="main-content">
-        <div class="bubbles">
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-            <div class="bubble"></div>
-        </div>
-
-        <section id="home">
-            <div class="home-container">
-                
-                <div class="intro-text">
-                    <h1 class="hi">Hi, <br>I'm Mikko!</h1>
-                    <h2 class="hi2"> 3rd Year IT Student</h2>
-
-                    <button id="contactButton" class="button_contact">
-                        <span class="button_lg">
-                            <span class="button_sl"></span>
-                            <span class="button_text">Contact Now!</span>
-                        </span>
-                    </button>
-                </div>
-                
-                <img src="images/Mikko.png" alt="Your Image" class="home-image" draggable="false" oncontextmenu="return false;">
-            
-            </div>
-        </section>
-        
-        <section id="about">
-            <div class="about1">
-            <h1 class="aboutme"> About Me </h1>
-            <h2 class="message">"Hello! I'm Mikko L. Samaniego, an aspiring software engineer and dedicated 3rd Year student currently pursuing a degree in Information Technology at the University of Santo Tomas. My journey in technology began with a fascination for computers, growing into a commitment to learning and innovation. </br>
+	<button class="scrollup">
+		<svg class="svgIcon" viewBox="0 0 384 512">
+			<path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+		</svg>
+	</button>
+	<header>
+		<nav>
+			<ul class="logo">
+				<li>
+					<a href="#home"><img src="images/logo.png" alt="Logo" class="nav-logo" draggable="false" oncontextmenu="return false;"></a>
+				</li>
+			</ul>
+			<label class="hamburger">
+				<input type="checkbox">
+				<svg viewBox="0 0 32 32">
+					<path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+					<path class="line" d="M7 16 27 16"></path>
+				</svg>
+			</label>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="main-content">
+		<div class="bubbles">
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+			<div class="bubble"></div>
+		</div>
+		<section id="home">
+			<div class="home-container">
+				<div class="intro-text">
+					<h1 class="hi">Hi, <br>I'm Mikko!</h1>
+					<h2 class="hi2"> 3rd Year IT Student</h2>
+					<button id="contactButton" class="button_contact"> <span class="button_lg">
+                            <span class="button_sl"></span> <span class="button_text">Contact Now!</span> </span>
+					</button>
+				</div> <img src="images/Mikko.png" alt="Your Image" class="home-image" draggable="false" oncontextmenu="return false;"> </div>
+		</section>
+		<section id="about">
+			<div class="about1">
+				<h1 class="aboutme"> About Me </h1>
+				<h2 class="message">"Hello! I'm Mikko L. Samaniego, an aspiring software engineer and dedicated 3rd Year student currently pursuing a degree in Information Technology at the University of Santo Tomas. My journey in technology began with a fascination for computers, growing into a commitment to learning and innovation. </br>
 
                 <br>With skills in software engineering, I enjoy building dynamic applications and designing efficient algorithms. My expertise also spans Web Development with HTML, CSS, Javascript, and PHP, as well as database management with MySQL.</br>
                 
                 <br>Through various projects, I've honed my problem-solving abilities and collaborative skills, working in diverse team environments. I am particularly interested in Web and Mobile Development, aiming to create innovative solutions for real-world challenges. </br>
                 
                 <br>Thank you for visiting my website. Let's connect and explore new opportunities in technology!"
-            </h2>
-        </div>
-
-        <div class="education">
-            <h1 class="eductitle"> Education </h1>
-
-            <div class="ust1">
-            <img src="images/ust.png" alt="ustlogo" class="ust">
-
-            <div class="collegeinfo">
-                <div class="collegeinfo-header">
-                    <h1 class="ustname"> University of Santo Tomas</h1>
-                    <h5 class="year"> 2022 - 2026 </h5>
-                </div>
-                
-                <h2 class="program"> Bachelor of Science in Information Technology </h2>
-                <h3 class="major"> Specializing in Web and Mobile Development </h3>
-            </div>        
-        </div>
-        
-        <div class="sbu1">
-            <img src="images/sbu.png" alt="sbulogo" class="sbu">
-            
-            <div class="collegeinfo">
-                <div class="collegeinfo-header2">
-                    <h1 class="sbuname"> San Beda University</h1>
-                    <h5 class="year2"> 2020 - 2022 </h5>
-                </div>
-                
-                <h2 class="dept"> Senior High School </h2>
-                <h3 class="strand"> Science, Technology, Engineering, and Mathematics (STEM) </h3>
-            </div>
-        </div>
-    </section>
-    
-    <section id="skills">
-        <div class="languages">
-            <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img">
-                    <img src="images/html.png" alt="html" class="img"draggable="false" oncontextmenu="return false;">
-                </div>  
-            <span>HTML</span>
-        </div>
-        
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="img">
-                <img src="images/css.png" alt="css" class="img" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>CSS</span>
-        </div>
-    
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="img">
-                <img src="images/js.png" alt="js" class="img" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>JS</span>
-        </div>
-    
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="img">
-                <img src="images/php.png" alt="php" class="img" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>PHP</span>
-        </div>
-    
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="mysql">
-                <img src="images/mysql.png" alt="mysql" class="mysql" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span class="mysql1">MySQL</span>
-        </div>
-    
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="java">
-                <img src="images/java.png" alt="java" class="java" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>Java</span>
-        </div>
-    
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="img">
-                <img src="images/C++.png" alt="c++" class="img" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>C++</span>
-        </div>
-
-        <div class="card">
-            <div class="card-border-top"></div>
-            <div class="img">
-                <img src="images/python.png" alt="python" class="img" draggable="false" oncontextmenu="return false;">
-            </div>
-            <span>Python</span>
-        </div> 
-    </div> 
-
-    <div class="skillsdiv">
-        <div class="softskills">
-            <div class="softtitle">
-                <h1 class="stitle">Soft Skills</h1>
-                <h2 class="sskill1"><span style="font-weight: 450;">Problem-Solving</span>: Analyzing and solving complex problems effectively</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Communication</span>: Conveying technical information clearly to non-technical stakeholders</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Teamwork</span>: Collaborating effectively within team environments</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Time Management</span>: Managing time efficiently to meet deadlines</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Adaptability</span>: Learning new technologies and adjusting to changes</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Attention to Detail</span>: Ensuring high-quality code through meticulousness</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Critical Thinking</span>: Making sound decisions based on data and analysis</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Creativity</span>: Innovating in problem-solving and design</h2>
-                <h2 class="sskill1"><span style="font-weight: 450;">Leadership</span>: Leading projects and teams effectively</h2>             
-            </div>
-        </div>  
-        <div class="skillsline">
-            <div class="vertical-line"></div>
-        </div>
-        <div class="hardskills">
-            <div class="hardtitle">
-                <h1 class="htitle">Hard Skills</h1>
-                <div class="hardskills1">
-                    <h2 class="hskills1"><span style="font-weight: 450;">Programming</span>: Skilled in various languages</h2>
-                    <h2 class="hskills1"><span style="font-weight: 450;">Software Development</span>: Proficient in creating efficient software solutions with strong front-end and back-end skills.</h2>
-                    <h2 class="hskills1"><span style="font-weight: 450;">Database Management</span>: Knowledgeable in SQL and NoSQL databases like MySQL and MongoDB.</h2>
-                    <h2 class="hskills1"><span style="font-weight: 450;">Version Control</span>: Proficient with Git and platforms like GitHub.</h2>
-                    <h2 class="hskills1"><span style="font-weight: 450;">Data Structures and Algorithms</span>: Knowledge of fundamental data structures and algorithms for efficient problem-solving.</h2>                    
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="projects">
-    <div class="projectsheader">
-        <h1 class="projectstitle">Check Out What I've Been Up To!</h1>
-        <img src="images/arrow.gif" alt="css" class="arrow" draggable="false" oncontextmenu="return false;">
-    </div>
-    <div class="projectcontainer">
-        <div class="project1info">
-            <div class="project1div">
-                <h1 class="project1title">E-Sumbong</h1>
-                <div class="titleproject1">
-                    <div class="project1content">
-                        <p class="project1description">"E-Sumbong" is an innovative web application designed to monitor and address concerns effectively. 
-                            With its intuitive interface and comprehensive features, E-Sumbong empowers users to track, report, and collaborate on 
-                            issues within their communities and beyond. E-Sumbong provides a platform for users to document observations, share 
-                            photographs, and pinpoint locations of concern to Philippine agencies and companies. The app facilitates informed 
-                            decision-making and encourages collective action towards stewardship. E-Sumbong also fosters community engagement 
-                            by enabling users to connect with local authorities, environmental organizations, and fellow activists to initiate 
-                            and participate in impactful initiatives and campaigns. By harnessing the power of technology and community collaboration.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="esumbongpic">
-                <a href="https://github.com/mikko13/E-Sumbong" target="_blank">
-                    <img src="images/esumbong.png" alt="E-Sumbong" class="esumbong">
-                </a>
-            </div>
-        </div>
-        
-        <div class="project2info">
-            <div class="hiccuppic">
-                <a href="https://github.com/mikko13/Hiccup-Website" target="_blank">
-                    <img src="images/hiccup.png" alt="Hiccup" class="hiccup">
-                </a>
-            </div>
-            <div class="project2div">
-                <h1 class="project2title">Hiccup</h1>
-                <div class="titleproject2">
-                    <div class="project2content">
-                        <p class="project2description">This E-Commerce Platform for Hiccup is a digital solution designed to streamline the ordering 
-                            and purchasing process for customers. This platform allows users to browse the coffee shop's menu, place orders online, 
-                            and make payments securely. It also includes features for managing customer accounts, tracking orders, and offering 
-                            promotions. The system aims to enhance customer convenience and operational efficiency for Hiccup by integrating online 
-                            sales with their existing business operations.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- dito mga projects -->
-    </div>
-</section>
-</main>
-
-<section id="contact">
-    <div class="contactdiv">
-        <div class="contactcard">
-            <div class="cloudpic">
-                <div class="cloud">
-                    <div class="text-cloud"><p class="hellocloud">Thanks for visiting my website</p></div>
-                    <div class="text-cloud-triangle"></div>
-                </div>
-                <div class="contactimg">
-                    <img src="images/memoji.png" alt="memoji" class="memoji" draggable="false" oncontextmenu="return false;">
-                    <img src="images/memoji-blink.png" alt="memoji" class="memoji-blink" draggable="false" oncontextmenu="return false;">
-                </div>
-            </div>
-            
-            <div class="contactlinks">
-                <div class="contactinfo">
-                    <p class="info"><i class="fa-solid fa-envelope"></i> <a href="mailto:mikkosamaniego.13@gmail.com">mikkosamaniego.13@gmail.com</a></p>
-                    <p class="info"><i class="fa-solid fa-phone"></i> <a href="tel:+639063642928">+63 906 364 2928</a></p>
-                    <p class="info"><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/mikko13samaniego" target="_blank">Mikko Samaniego</a></p>
-                </div>
-                
-                <div class="contactinfo2">
-                    <p class="info"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/mikkowww13" target="_blank">mikkowww13</a></p>
-                    <p class="info"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mikko-s-0253902b7/" target="_blank">Mikko Samaniego</a></p>
-                    <p class="info"><i class="fa-brands fa-github"></i> <a href="https://github.com/mikko13" target="_blank">mikko13</a></p>
-                </div>
-            </div>
-        
-            <div class="contactsbottom">
-                <div class="contactslogan">
-                    <span class="slogan">Let’s Connect Today!</span>
-                    <p class="messageslogan">Whether you're interested in collaboration, have questions, <br>or just want to chat, I’d love to hear from you. Reach out <br> via email, phone, or social media—let's start a conversation <br>and see how we can work together!</p>
-                </div>
-
-                <div class="contactimg2">
-                    <img src="images/memoji.png" alt="memoji2" class="memoji2" draggable="false" oncontextmenu="return false;">
-                </div>   
-            </div>
-        </div>
-    </div>    
-</section>
-
-<footer>
-    <section id="footer">
-        <div class="footerdiv">
-            <div class="footerlogo"><img src="images/logowhite.png" alt="Logo" class="footer-logo" draggable="false" oncontextmenu="return false;"></div>
-
-            <div class="footermessagediv">
-                <div class="footermessage">Creative Solutions for Modern Problems</div>
-                <div class="footermessage2">Innovative designs tailored for today’s challenges</div>
-            </div>
-            
-            <div class="linksdiv">
-                <div class="links">QUICK LINKS</div>
-                <div class="links1"><a href="#home">Home</a></div>
-                <div class="links1"><a href="#about">About</a></div>
-                <div class="links1"><a href="#skills">Skills</a></div>
-                <div class="links1"><a href="#projects">Projects</a></div>
-                <div class="links1"><a href="#contact">Contact</a></div>
-            </div>
-        </div>
-        
-        <div class="footerbottom">
-        <div class="footerline">
-            <div class="footer-line"></div>
-        </div>
-
-        <div class="copyright">
-            <p>Copyright © 2024<span class="italic"> All Rights Reserved by Mikko</span></p>
-        </div>
-    </div>
-    </section>
-</footer>
-
-    <script src="script.js"></script>
+            </h2> </div>
+			<div class="education">
+				<h1 class="eductitle"> Education </h1>
+				<div class="ust1"> <img src="images/ust.png" alt="ustlogo" class="ust">
+					<div class="collegeinfo">
+						<div class="collegeinfo-header">
+							<h1 class="ustname"> University of Santo Tomas</h1>
+							<h5 class="year"> 2022 - 2026 </h5> </div>
+						<h2 class="program"> Bachelor of Science in Information Technology </h2>
+						<h3 class="major"> Specializing in Web and Mobile Development </h3> </div>
+				</div>
+				<div class="sbu1"> <img src="images/sbu.png" alt="sbulogo" class="sbu">
+					<div class="collegeinfo">
+						<div class="collegeinfo-header2">
+							<h1 class="sbuname"> San Beda University</h1>
+							<h5 class="year2"> 2020 - 2022 </h5> </div>
+						<h2 class="dept"> Senior High School </h2>
+						<h3 class="strand"> Science, Technology, Engineering, and Mathematics (STEM) </h3> </div>
+				</div>
+		</section>
+		<section id="skills">
+			<div class="languages">
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/html.png" alt="html" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>HTML</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/css.png" alt="css" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>CSS</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/js.png" alt="js" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>JS</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/php.png" alt="php" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>PHP</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="mysql"> <img src="images/mysql.png" alt="mysql" class="mysql" draggable="false" oncontextmenu="return false;"> </div> <span class="mysql1">MySQL</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="java"> <img src="images/java.png" alt="java" class="java" draggable="false" oncontextmenu="return false;"> </div> <span>Java</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/C++.png" alt="c++" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>C++</span> </div>
+				<div class="card">
+					<div class="card-border-top"></div>
+					<div class="img"> <img src="images/python.png" alt="python" class="img" draggable="false" oncontextmenu="return false;"> </div> <span>Python</span> </div>
+			</div>
+			<div class="skillsdiv">
+				<div class="softskills">
+					<div class="softtitle">
+						<h1 class="stitle">Soft Skills</h1>
+						<h2 class="sskill1"><span style="font-weight: 450;">Problem-Solving</span>: Analyzing and solving complex problems effectively</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Communication</span>: Conveying technical information clearly to non-technical stakeholders</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Teamwork</span>: Collaborating effectively within team environments</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Time Management</span>: Managing time efficiently to meet deadlines</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Adaptability</span>: Learning new technologies and adjusting to changes</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Attention to Detail</span>: Ensuring high-quality code through meticulousness</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Critical Thinking</span>: Making sound decisions based on data and analysis</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Creativity</span>: Innovating in problem-solving and design</h2>
+						<h2 class="sskill1"><span style="font-weight: 450;">Leadership</span>: Leading projects and teams effectively</h2> </div>
+				</div>
+				<div class="skillsline">
+					<div class="vertical-line"></div>
+				</div>
+				<div class="hardskills">
+					<div class="hardtitle">
+						<h1 class="htitle">Hard Skills</h1>
+						<div class="hardskills1">
+							<h2 class="hskills1"><span style="font-weight: 450;">Programming</span>: Skilled in various languages</h2>
+							<h2 class="hskills1"><span style="font-weight: 450;">Software Development</span>: Proficient in creating efficient software solutions with strong front-end and back-end skills.</h2>
+							<h2 class="hskills1"><span style="font-weight: 450;">Database Management</span>: Knowledgeable in SQL and NoSQL databases like MySQL and MongoDB.</h2>
+							<h2 class="hskills1"><span style="font-weight: 450;">Version Control</span>: Proficient with Git and platforms like GitHub.</h2>
+							<h2 class="hskills1"><span style="font-weight: 450;">Data Structures and Algorithms</span>: Knowledge of fundamental data structures and algorithms for efficient problem-solving.</h2> </div>
+					</div>
+				</div>
+		</section>
+		<section id="projects">
+			<div class="projectsheader">
+				<h1 class="projectstitle">Check Out What I've Been Up To!</h1> <img src="images/arrow.gif" alt="css" class="arrow" draggable="false" oncontextmenu="return false;"> </div>
+			<div class="projectcontainer">
+				<div class="project1info">
+					<div class="project1div">
+						<h1 class="project1title">E-Sumbong</h1>
+						<div class="titleproject1">
+							<div class="project1content">
+								<p class="project1description">"E-Sumbong" is an innovative web application designed to monitor and address concerns effectively. With its intuitive interface and comprehensive features, E-Sumbong empowers users to track, report, and collaborate on issues within their communities and beyond. E-Sumbong provides a platform for users to document observations, share photographs, and pinpoint locations of concern to Philippine agencies and companies. The app facilitates informed decision-making and encourages collective action towards stewardship. E-Sumbong also fosters community engagement by enabling users to connect with local authorities, environmental organizations, and fellow activists to initiate and participate in impactful initiatives and campaigns. By harnessing the power of technology and community collaboration. </p>
+							</div>
+						</div>
+					</div>
+					<div class="esumbongpic">
+						<a href="https://github.com/mikko13/E-Sumbong" target="_blank"> <img src="images/esumbong.png" alt="E-Sumbong" class="esumbong"> </a>
+					</div>
+				</div>
+				<div class="project2info">
+					<div class="hiccuppic">
+						<a href="https://github.com/mikko13/Hiccup-Website" target="_blank"> <img src="images/hiccup.png" alt="Hiccup" class="hiccup"> </a>
+					</div>
+					<div class="project2div">
+						<h1 class="project2title">Hiccup</h1>
+						<div class="titleproject2">
+							<div class="project2content">
+								<p class="project2description">This E-Commerce Platform for Hiccup is a digital solution designed to streamline the ordering and purchasing process for customers. This platform allows users to browse the coffee shop's menu, place orders online, and make payments securely. It also includes features for managing customer accounts, tracking orders, and offering promotions. The system aims to enhance customer convenience and operational efficiency for Hiccup by integrating online sales with their existing business operations. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- dito mga projects -->
+			</div>
+		</section>
+	</main>
+	<section id="contact">
+		<div class="contactdiv">
+			<div class="contactcard">
+				<div class="cloudpic">
+					<div class="cloud">
+						<div class="text-cloud">
+							<p class="hellocloud">Thanks for visiting my website</p>
+						</div>
+						<div class="text-cloud-triangle"></div>
+					</div>
+					<div class="contactimg"> <img src="images/memoji.png" alt="memoji" class="memoji" draggable="false" oncontextmenu="return false;"> <img src="images/memoji-blink.png" alt="memoji" class="memoji-blink" draggable="false" oncontextmenu="return false;"> </div>
+				</div>
+				<div class="contactlinks">
+					<div class="contactinfo">
+						<p class="info"><i class="fa-solid fa-envelope"></i> <a href="mailto:mikkosamaniego.13@gmail.com">mikkosamaniego.13@gmail.com</a></p>
+						<p class="info"><i class="fa-solid fa-phone"></i> <a href="tel:+639063642928">+63 906 364 2928</a></p>
+						<p class="info"><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/mikko13samaniego" target="_blank">Mikko Samaniego</a></p>
+					</div>
+					<div class="contactinfo2">
+						<p class="info"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/mikkowww13" target="_blank">mikkowww13</a></p>
+						<p class="info"><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mikko-s-0253902b7/" target="_blank">Mikko Samaniego</a></p>
+						<p class="info"><i class="fa-brands fa-github"></i> <a href="https://github.com/mikko13" target="_blank">mikko13</a></p>
+					</div>
+				</div>
+				<div class="contactsbottom">
+					<div class="contactslogan"> <span class="slogan">Let’s Connect Today!</span>
+						<p class="messageslogan">Whether you're interested in collaboration, have questions,
+							<br>or just want to chat, I’d love to hear from you. Reach out
+							<br> via email, phone, or social media—let's start a conversation
+							<br>and see how we can work together!</p>
+					</div>
+					<div class="contactimg2"> <img src="images/memoji.png" alt="memoji2" class="memoji2" draggable="false" oncontextmenu="return false;"> </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<section id="footer">
+			<div class="footerdiv">
+				<div class="footerlogo"><img src="images/logowhite.png" alt="Logo" class="footer-logo" draggable="false" oncontextmenu="return false;"></div>
+				<div class="footermessagediv">
+					<div class="footermessage">Creative Solutions for Modern Problems</div>
+					<div class="footermessage2">Innovative designs tailored for today’s challenges</div>
+				</div>
+				<div class="linksdiv">
+					<div class="links">QUICK LINKS</div>
+					<div class="links1"><a href="#home">Home</a></div>
+					<div class="links1"><a href="#about">About</a></div>
+					<div class="links1"><a href="#skills">Skills</a></div>
+					<div class="links1"><a href="#projects">Projects</a></div>
+					<div class="links1"><a href="#contact">Contact</a></div>
+				</div>
+			</div>
+			<div class="footerbottom">
+				<div class="footerline">
+					<div class="footer-line"></div>
+				</div>
+				<div class="copyright">
+					<p>Copyright © 2024<span class="italic"> All Rights Reserved by Mikko</span></p>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<script src="script.js"></script>
 </body>
+
 </html>

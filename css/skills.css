@@ -1,241 +1,242 @@
-#skills{
-    padding-top: 20px;
-    padding-bottom: 40px;
+#skills {
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .languages {
-    background-color: #1c3c4d;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
+	background-color: #1c3c4d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
 }
 
 .card {
-    width: 130px;
-    height: 130px;
-    background: #30495f;
-    border-radius: 4px;
-    padding-top: 10px;
-    font-family: "Josefin Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 20px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	width: 130px;
+	height: 130px;
+	background: #30495f;
+	border-radius: 4px;
+	padding-top: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 20px;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	transform: scale(1.1);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card span {
-    font-weight: 600;
-    color: white;
-    font-size: 1.3em;
-    margin-top: 10px;
+	font-weight: 600;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 10px;
 }
 
 .card .img, .mysql, .java {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 }
 
 .card .img img {
-    width: 70px;
-    height: 70px;
+	width: 70px;
+	height: 70px;
 }
 
 .mysql img {
-    width: 70px;
-    height: 50px;
+	width: 70px;
+	height: 50px;
 }
 
 .java img {
-    width: 50px;
-    height: 70px;
+	width: 50px;
+	height: 70px;
 }
 
 @media (max-width: 768px) {
-    .card {
-        width: 100px;
-        height: 100px;
-    }
+	.card {
+		width: 100px;
+		height: 100px;
+	}
 
-    .card span {
-        font-size: 1em;
-    }
+	.card span {
+		font-size: 1em;
+	}
 
-    .card .img img, .mysql img, .java img {
-        width: 50px;
-        height: 50px;
-    }
+	.card .img img, .mysql img, .java img {
+		width: 50px;
+		height: 50px;
+	}
 
-    .mysql img {
-        width: 70px;
-        height: 50px;
-    }
-    
-    .java img {
-        width: 50px;
-        height: 70px;
-    }
+	.mysql img {
+		width: 70px;
+		height: 50px;
+	}
+
+	.java img {
+		width: 50px;
+		height: 70px;
+	}
 }
 
 @media (max-width: 480px) {
-    .languages {
-        align-items: center;
-    }
+	.languages {
+		align-items: center;
+	}
 
-    .card {
-        width: 80px;
-        height: 80px;
-    }
+	.card {
+		width: 80px;
+		height: 80px;
+	}
 
-    .card span {
-        font-size: 0.9em;
-    }
+	.card span {
+		font-size: 0.9em;
+	}
 
-    .card .img img, .mysql img, .java img {
-        width: 40px;
-        height: 40px;
-    }
-    .mysql img {
-        width: 50px;
-        height: 40px;
-    }
-    
-    .java img {
-        width: 40px;
-        height: 60px;
-    }
+	.card .img img, .mysql img, .java img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.mysql img {
+		width: 50px;
+		height: 40px;
+	}
+
+	.java img {
+		width: 40px;
+		height: 60px;
+	}
 }
 
-    @media (max-width: 370px) {
-        .languages {
-            align-items: center;
-        }
-    
-        .card {
-            width: 100px;
-            height: 100px;
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-    
-        .card span {
-            font-size: 0.7em;
-        }
-    
-        .card .img img{
-            width: 50px;
-            height: 50px;
-        }
+@media (max-width: 370px) {
+	.languages {
+		align-items: center;
+	}
 
-        .mysql img {
-            width: 55px;
-            height: 45px;
-        }
-        
-        .java img {
-            width: 45px;
-            height: 65px;
-        }
-    }
+	.card {
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
 
-    .skillsdiv {
-        display: flex;
-        margin-top: 40px;
-    }
-    
-    .vertical-line {
-        width: 4px;
-        height: 100%;
-        background-color: #1c3c4d;
-    }
-    
-    .softskills, .hardskills {
-        flex: 1;
-    }
+	.card span {
+		font-size: 0.7em;
+	}
 
-    .softskills{
-        margin-left: 40px;
-    }
-    
-    .hardskills{
-        margin-right: 40px;
-    }
-    
-    .softtitle, .hardtitle {
-        margin: 20px;
-    }
-    
-    .stitle, .htitle {
-        font-size: 20px;
-        font-weight: 500; 
-        color: #1c3c4d;
-        font-family: "Josefin Sans", sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .sskill1, .hskills1 {
-        font-size: 16px;
-        font-weight: 300;
-        font-style: italic;
-        color: #1c3c4d;
-        font-family: "Josefin Sans", sans-serif;
-        text-align: left;
-    }
-    
-    .hskills1 {
-        font-size: 15px;
-        text-align: justify;
-    }
+	.card .img img {
+		width: 50px;
+		height: 50px;
+	}
 
-    @media (max-width: 653px) {
-        .skillsdiv{
-            display: block;
-        }
+	.mysql img {
+		width: 55px;
+		height: 45px;
+	}
 
-        .softskills{
-            margin-right: 40px;
-        }
-        
-        .hardskills{
-            margin-left: 40px;
-        }
+	.java img {
+		width: 45px;
+		height: 65px;
+	}
+}
 
-        .vertical-line {
-            height: 4px;
-            width: 100%;
-            background-color: #1c3c4d;
-        }
+.skillsdiv {
+	display: flex;
+	margin-top: 40px;
+}
 
-        .skillsline{
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-    }
+.vertical-line {
+	width: 4px;
+	height: 100%;
+	background-color: #1c3c4d;
+}
 
-    @media (max-width: 545px) {
-        .stitle, .htitle{
-            font-size: 20px;
-            font-weight: 800;
-        }
+.softskills, .hardskills {
+	flex: 1;
+}
 
-        .sskill1, .hskills1{
-            font-size: 12.5px;
-        }
+.softskills {
+	margin-left: 40px;
+}
 
-        .skillsdiv{
-            margin-bottom: -40px;
-        }
-    }
+.hardskills {
+	margin-right: 40px;
+}
+
+.softtitle, .hardtitle {
+	margin: 20px;
+}
+
+.stitle, .htitle {
+	font-size: 20px;
+	font-weight: 500;
+	color: #1c3c4d;
+	font-family: "Josefin Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.sskill1, .hskills1 {
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1c3c4d;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: left;
+}
+
+.hskills1 {
+	font-size: 15px;
+	text-align: justify;
+}
+
+@media (max-width: 653px) {
+	.skillsdiv {
+		display: block;
+	}
+
+	.softskills {
+		margin-right: 40px;
+	}
+
+	.hardskills {
+		margin-left: 40px;
+	}
+
+	.vertical-line {
+		height: 4px;
+		width: 100%;
+		background-color: #1c3c4d;
+	}
+
+	.skillsline {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+
+@media (max-width: 545px) {
+	.stitle, .htitle {
+		font-size: 20px;
+		font-weight: 800;
+	}
+
+	.sskill1, .hskills1 {
+		font-size: 12.5px;
+	}
+
+	.skillsdiv {
+		margin-bottom: -40px;
+	}
+}
