@@ -123,6 +123,46 @@
     animation-delay:1s;
 }
 
+.bubble:nth-child(14) {
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+.bubble:nth-child(15) {
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}
+
+.bubble:nth-child(16) {
+    width: 40px;
+    height: 40px;
+    left: 60%;
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+
+.bubble:nth-child(17) {
+    width: 35px;
+    height: 35px;
+    left: 75%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+
+.bubble:nth-child(18) {
+    width: 45px;
+    height: 45px;
+    left: 20%;
+    animation-duration: 10s;
+    animation-delay: 0s;
+}
+
 @keyframes rise {
     0% {
         bottom: -100px;

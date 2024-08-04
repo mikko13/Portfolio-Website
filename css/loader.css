@@ -23,6 +23,8 @@
     stroke-width: 2;
     stroke: #1C3C4D;
     font-size: 159px;
+    pointer-events: none;
+
   }
   @keyframes stroke {
     0%   {
