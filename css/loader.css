@@ -1,74 +1,46 @@
 .loader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 1s ease-out, visibility 1s ease-out;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-out, visibility 1s ease-out;
+  margin
+}
+
   
-  .square {
-    width: 8px;
-    height: 30px;
-    background: #2b5267;
-    border-radius: 10px;
-    display: block;
-    -webkit-animation: turn 2.5s ease infinite;
-    animation: turn 2.5s ease infinite;
-    box-shadow: #1c3c4d 0px 1px 15px 0px;
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Russo+One&display=swap');
+ 
+  svg {
+    font-family: "Russo One", sans-serif;
+    width: 100%; height: 100%;
   }
-  
-  .top, .bottom, .left, .right {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform-origin: center;
+  svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #1C3C4D;
+    font-size: 159px;
   }
-  
-  .top {
-    transform: translate(-50%, -50%) rotate(90deg);
-  }
-  
-  .bottom {
-    transform: translate(-50%, -50%) rotate(-90deg);
-  }
-  
-  .left {
-    transform: translate(-50%, -50%);
-  }
-  
-  .right {
-    transform: translate(-50%, -50%) rotate(-180deg);
-  }
-  
-  @-webkit-keyframes turn {
-    0% {
-      transform: translateX(0) translateY(0) rotate(0);
+  @keyframes stroke {
+    0%   {
+      fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
     }
-    50% {
-      transform: translateX(400%) translateY(100%) rotate(90deg);
-    }
+    70%  {fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1); }
+    80%  {fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1); stroke-width: 3; }
     100% {
-      transform: translateX(0) translateY(0) rotate(0);
+      fill: rgba(28,60,77,1); stroke: rgba(28,60,77,0);
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
     }
   }
-  
-  @keyframes turn {
-    0% {
-      transform: translateX(0) translateY(0) rotate(0);
-    }
-    70% {
-      transform: translateX(400%) translateY(100%) rotate(90deg);
-    }
-    100% {
-      transform: translateX(0) translateY(0) rotate(0);
-    }
-  }
+    
 
   .loader.hide {
     opacity: 0;
