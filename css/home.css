@@ -191,18 +191,26 @@ nav ul.logo li a::after {
 }
 
 .hi {
-    color: #1c3c4d;
     font-size: 50px;
     font-family: "Josefin Sans", sans-serif;
+    background: #1C3C4D;
+    background: linear-gradient(to right, #1C3C4D 0%, #3A7DA1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+
 }
 
 .hi2 {
-    color: #1c3c4d;
     font-size: 20px;
     font-family: "Josefin Sans", sans-serif;
     margin-top: -40px;
     margin-left: 2px;
     font-style: italic;
+    background: #1C3C4D;
+    background: linear-gradient(to right, #1C3C4D 0%, #3A7DA1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .home-image {
