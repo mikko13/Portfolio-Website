@@ -1,51 +1,67 @@
 .loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 1s ease-out, visibility 1s ease-out;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 1s ease-out, visibility 1s ease-out;
 }
 
 .loadersvg {
-    font-family: "Russo One", sans-serif;
-    width: 100%; height: 100%;
-  }
-  .loadersvg text {
-    animation: stroke 5s infinite alternate;
-    stroke-width: 2;
-    stroke: #1C3C4D;
-    font-size: 159px;
-    pointer-events: none;
+	font-family: "Russo One", sans-serif;
+	width: 100%;
+	height: 100%;
+}
 
-  }
-  @keyframes stroke {
-    0%   {
-      fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1);
-      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-    }
-    70%  {fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1); }
-    80%  {fill: rgba(28,60,77,0); stroke: rgba(28,60,77,1); stroke-width: 3; }
-    100% {
-      fill: rgba(28,60,77,1); stroke: rgba(28,60,77,0);
-      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-    }
-  }
-    
+.loadersvg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #1C3C4D;
+	font-size: 159px;
+	pointer-events: none;
+}
 
-  .loader.hide {
-    opacity: 0;
-    visibility: hidden;
+@keyframes stroke {
+	0% {
+		fill: rgba(28,60,77,0);
+		stroke: rgba(28,60,77,1);
+		stroke-dashoffset: 25%;
+		stroke-dasharray: 0 50%;
+		stroke-width: 2;
+	}
+
+	70% {
+		fill: rgba(28,60,77,0);
+		stroke: rgba(28,60,77,1);
+	}
+
+	80% {
+		fill: rgba(28,60,77,0);
+		stroke: rgba(28,60,77,1);
+		stroke-width: 3;
+	}
+
+	100% {
+		fill: rgba(28,60,77,1);
+		stroke: rgba(28,60,77,0);
+		stroke-dashoffset: -25%;
+		stroke-dasharray: 50% 0;
+		stroke-width: 0;
+	}
+}
+
+.loader.hide {
+	opacity: 0;
+	visibility: hidden;
 }
 
 body.no-scroll {
-    overflow: hidden;
+	overflow: hidden;
 }
-  

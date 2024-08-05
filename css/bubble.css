@@ -11,7 +11,6 @@
 
 .bubble {
     position: absolute;
-    bottom: -100px;
     width: 40px;
     height: 40px;
     background: #1c3c4d;
@@ -23,14 +22,16 @@
 .bubble:nth-child(1) {
     width: 40px;
     height: 40px;
-    left: 10%;
+    left: 5%;
+    top: 10%;
     animation-duration: 8s;
 }
 
 .bubble:nth-child(2) {
     width: 20px;
     height: 20px;
-    left: 20%;
+    left: 15%;
+    top: 20%;
     animation-duration: 5s;
     animation-delay: 1s;
 }
@@ -39,6 +40,7 @@
     width: 50px;
     height: 50px;
     left: 35%;
+    top: 30%;
     animation-duration: 7s;
     animation-delay: 2s;
 }
@@ -47,6 +49,7 @@
     width: 80px;
     height: 80px;
     left: 50%;
+    top: 40%;
     animation-duration: 11s;
     animation-delay: 0s;
 }
@@ -55,6 +58,7 @@
     width: 35px;
     height: 35px;
     left: 55%;
+    top: 50%;
     animation-duration: 6s;
     animation-delay: 1s;
 }
@@ -63,6 +67,7 @@
     width: 45px;
     height: 45px;
     left: 65%;
+    top: 60%;
     animation-duration: 8s;
     animation-delay: 3s;
 }
@@ -71,6 +76,7 @@
     width: 90px;
     height: 90px;
     left: 70%;
+    top: 70%;
     animation-duration: 12s;
     animation-delay: 2s;
 }
@@ -79,6 +85,7 @@
     width: 25px;
     height: 25px;
     left: 80%;
+    top: 80%;
     animation-duration: 6s;
     animation-delay: 2s;
 }
@@ -87,6 +94,7 @@
     width: 15px;
     height: 15px;
     left: 70%;
+    top: 20%;
     animation-duration: 5s;
     animation-delay: 1s;
 }
@@ -95,38 +103,43 @@
     width: 90px;
     height: 90px;
     left: 25%;
+    top: 25%;
     animation-duration: 10s;
     animation-delay: 4s;
 }
 
 .bubble:nth-child(11){
-    width:60px;
-    height:60px;
-    left:15%;
-    animation-duration:9s;
-    animation-delay:2s;
+    width: 60px;
+    height: 60px;
+    left: 15%;
+    top: 35%;
+    animation-duration: 9s;
+    animation-delay: 2s;
 }
 
 .bubble:nth-child(12){
-    width:30px;
-    height:30px;
-    left:40%;
-    animation-duration:7s;
-    animation-delay:3s;
+    width: 30px;
+    height: 30px;
+    left: 40%;
+    top: 45%;
+    animation-duration: 7s;
+    animation-delay: 3s;
 }
 
 .bubble:nth-child(13){
-    width:70px;
-    height:70px;
-    left:75%;
-    animation-duration:11s;
-    animation-delay:1s;
+    width: 70px;
+    height: 70px;
+    left: 75%;
+    top: 55%;
+    animation-duration: 11s;
+    animation-delay: 1s;
 }
 
 .bubble:nth-child(14) {
     width: 50px;
     height: 50px;
     left: 45%;
+    top: 65%;
     animation-duration: 9s;
     animation-delay: 3s;
 }
@@ -135,6 +148,7 @@
     width: 25px;
     height: 25px;
     left: 30%;
+    top: 75%;
     animation-duration: 7s;
     animation-delay: 2s;
 }
@@ -143,6 +157,7 @@
     width: 40px;
     height: 40px;
     left: 60%;
+    top: 15%;
     animation-duration: 8s;
     animation-delay: 1s;
 }
@@ -151,6 +166,7 @@
     width: 35px;
     height: 35px;
     left: 75%;
+    top: 25%;
     animation-duration: 6s;
     animation-delay: 4s;
 }
@@ -159,20 +175,28 @@
     width: 45px;
     height: 45px;
     left: 20%;
+    top:70%;
+    animation-duration: 10s;
+    animation-delay: 0s;
+}
+
+.bubble:nth-child(19) {
+    width: 45px;
+    height: 45px;
+    left: 90%;
+    top:85%;
     animation-duration: 10s;
     animation-delay: 0s;
 }
 
 @keyframes rise {
     0% {
-        bottom: -100px;
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50% {
-        transform: translateX(100px);
+        transform: translateY(-20px); /* Adjust this value for the desired height of the bounce */
     }
     100% {
-        bottom: 100vh;
-        transform: translateX(200px);
+        transform: translateY(0);
     }
 }
