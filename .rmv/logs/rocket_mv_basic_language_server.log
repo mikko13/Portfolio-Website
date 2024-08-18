@@ -178,3 +178,4 @@ Account{name=logs, path=C:/Users/Mikko/Desktop/Portfolio-Website/.git/logs, type
 Account{name=.git, path=C:/Users/Mikko/Desktop/Portfolio-Website/.git, type=PREDICT}
 2024-08-18 16:53:31.915 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
 2024-08-18 16:53:31.916 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Mikko/.rmv/config) watcher launch successful
+2024-08-18 17:52:12.218 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
