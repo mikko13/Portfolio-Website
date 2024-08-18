@@ -63,6 +63,18 @@
 	height: 70px;
 }
 
+.csharp img {
+	margin-top: 15px;
+	width: 75px;
+	height: 80px;
+}
+
+.nodejs img {
+	margin-top: 30px;
+	width: 90px;
+	height: 60px;
+}
+
 @media (max-width: 768px) {
 	.card {
 		width: 100px;
